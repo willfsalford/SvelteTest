@@ -1,0 +1,191 @@
+
+main > .container {
+    padding: 60px 15px 0;
+
+}
+
+body {
+    background-color: white;
+}
+
+#title {
+    margin-top: 12px;
+    background-color: white;
+    color: #000;
+
+}
+
+
+#content {
+    background-color: white;
+    border-top: solid 6px #f00;
+
+}
+
+#footer {
+    /*margin_top: 20px;
+    text-align: center;
+    background-color: #000;
+    color: #fff; */
+}
+
+.dropdown {
+    width: 8%;
+    margin-left: 2%;
+    margin-top: 2%;
+    position: fixed;
+
+}
+
+.dropdown:hover {
+
+}
+
+.btn img{
+    width: 100%;
+    margin: -25%;
+}
+
+.dropdown-toggle {
+    background-color: transparent;
+    border: none;
+}
+
+.dropdown-menu {
+    border: none;
+    background: transparent;
+}
+
+.dropdown-item {
+    padding-top: 20%;
+    margin-left: -10%;
+    width: 90%;
+}
+
+.dropdown-item img {
+    border-radius: 25px;
+
+}
+
+.navbar-custom {
+    background: transparent;
+
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+.navbar-brand {
+    width: 7%;
+    height: auto; /* This maintains the aspect ratio */
+    margin-bottom: 5%;
+}
+
+.navbar-brand img {
+    width: 100%; /* Adjust the percentage as per your desired size */
+    height: auto;
+}
+
+.nav-item {
+    margin-left: -10%;
+}
+
+.navbar-nav a {
+    color: black;
+}
+
+.navbar-nav li {
+    margin-left: -120%;
+    margin-top: 80%;
+    font-family: 'Rockwell', cursive;
+}
+
+.dropdown-item img {
+    width: 100%;
+    height: auto;
+}
+
+
+.banner {
+   display: flex;
+    justify-content: center;
+    margin-bottom: -1%;
+}
+
+.tp img {
+    max-width: 25%;
+    height: auto;
+    margin-top: -15%;
+    margin-bottom: -5%;
+}
+
+.tpp img {
+    max-width: 90%;
+    height: auto;
+    border: 2px solid #FF5D02;
+}
+
+.carousel-inner img {
+    margin: auto;
+}
+
+.line img {
+    width: 97%;
+    height: auto;
+    margin-left: 1%;
+}
+
+#homeC {
+    display: flex;
+
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: -5%;
+
+}
+
+#lLeft {
+    flex-basis: 5%;
+}
+
+#lLeft img {
+    width: 400%;
+    margin-left: -125%;
+}
+
+#lRight {
+    flex-basis: 5%;
+}
+
+#lRight img {
+    width: 400%;
+    margin-left: -50%;
+}
+
+#about {
+    flex-basis: 35%;
+    padding-left: 2%;
+    font-family: 'Rockwell', cursive;
+}
+
+#about h2 {
+    font-size: xxx-large;
+}
+
+
+#video {
+    flex-basis: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#video video {
+    width: auto;
+    border: 2px solid #FF5D02;
+    max-width: 100%;
+    max-height: 100%;
+
+}
