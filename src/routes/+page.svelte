@@ -1,2 +1,2 @@
 <h1>Welcome to SvelteKit</h1>
-<p>test</p>
+<p>test 2</p>
