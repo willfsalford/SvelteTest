@@ -29,11 +29,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: -5%;
+    margin: 5%;
 }
 
 .tp img {
-    width: 20%;
+    width: 15%;
     display: block;
     margin: 0 auto;
     margin-bottom: -5%;

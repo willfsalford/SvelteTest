@@ -10,7 +10,7 @@
     
 </script>
 <div class="cont">
-    <div class="">
+    <div class=""> 
         <div class="tpp banner">
             <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
