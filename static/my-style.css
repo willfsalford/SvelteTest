@@ -1,15 +1,11 @@
 
-main > .container {
-    padding: 60px 15px 0;
-
-}
 
 body {
     background-color: white;
 }
 
 #title {
-    margin-top: 12px;
+
     background-color: white;
     color: #000;
 
@@ -29,99 +25,30 @@ body {
     color: #fff; */
 }
 
-.dropdown {
-    width: 8%;
-    margin-left: 2%;
-    margin-top: 2%;
-    position: fixed;
-
+.tp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5%;
 }
 
-.dropdown:hover {
-
+.tp img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: -5%;
+    margin-top: -10%;
 }
-
-.btn img{
-    width: 100%;
-    margin: -25%;
-}
-
-.dropdown-toggle {
-    background-color: transparent;
-    border: none;
-}
-
-.dropdown-menu {
-    border: none;
-    background: transparent;
-}
-
-.dropdown-item {
-    padding-top: 20%;
-    margin-left: -10%;
-    width: 90%;
-}
-
-.dropdown-item img {
-    border-radius: 25px;
-
-}
-
-.navbar-custom {
-    background: transparent;
-
-}
-
-.navbar-inner {
-    background:transparent;
-}
-
-.navbar-brand {
-    width: 7%;
-    height: auto; /* This maintains the aspect ratio */
-    margin-bottom: 5%;
-}
-
-.navbar-brand img {
-    width: 100%; /* Adjust the percentage as per your desired size */
-    height: auto;
-}
-
-.nav-item {
-    margin-left: -10%;
-}
-
-.navbar-nav a {
-    color: black;
-}
-
-.navbar-nav li {
-    margin-left: -120%;
-    margin-top: 80%;
-    font-family: 'Rockwell', cursive;
-}
-
-.dropdown-item img {
-    width: 100%;
-    height: auto;
-}
-
 
 .banner {
    display: flex;
     justify-content: center;
-    margin-bottom: -1%;
-}
-
-.tp img {
-    max-width: 25%;
-    height: auto;
-    margin-top: -15%;
+    margin-top: 5%;
     margin-bottom: -5%;
 }
 
 .tpp img {
-    max-width: 90%;
+    max-width: 85%;
     height: auto;
     border: 2px solid #FF5D02;
 }
@@ -131,22 +58,23 @@ body {
 }
 
 .line img {
-    width: 97%;
-    height: auto;
-    margin-left: 1%;
+    width: 93%;
+    height: 1%;
+    margin-left: 3%;
 }
 
 #homeC {
     display: flex;
-
+    align-items: flex-start;
     padding-left: 5%;
     padding-right: 5%;
     padding-top: -5%;
+    margin-top: -5%;
 
 }
 
 #lLeft {
-    flex-basis: 5%;
+    flex-basis: 4%;
 }
 
 #lLeft img {
@@ -155,7 +83,7 @@ body {
 }
 
 #lRight {
-    flex-basis: 5%;
+    flex-basis: 4%;
 }
 
 #lRight img {
@@ -167,10 +95,20 @@ body {
     flex-basis: 35%;
     padding-left: 2%;
     font-family: 'Rockwell', cursive;
+    height: 200px;
 }
 
 #about h2 {
     font-size: xxx-large;
+}
+
+#about-textarea {
+    height: 100%;
+    width: 100%;
+    resize:none;
+    border: none;
+    overflow-y: scroll;
+    white-space:normal;
 }
 
 
@@ -182,8 +120,9 @@ body {
 
 }
 
-#video video {
-    width: auto;
+#vid {
+    width: 80%;
+    height: auto;
     border: 2px solid #FF5D02;
     max-width: 100%;
     max-height: 100%;
